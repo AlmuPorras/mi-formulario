@@ -1,0 +1,54 @@
+/*
+paleta de colores : https://material.io/guidelines/style/color.html#color-color-palette
+*/
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+.Form{
+  width: 100%;
+  height: 100vh; /* 100% del tamaño de la pantalla */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #CFD8DC;
+}
+.Form-form{
+  background-color: #ECEFF1;
+  border-radius: 15px;
+  padding: 10px;
+  width: 400px;
+}
+.Form-title{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+.Form-button{
+  background-color: #FFCCBC;
+  border: 2px solid #FF5722;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: .9em;
+  color: #BF360C;
+  padding: 5px 12px 5px 12px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.Form-labelLegend{
+  color: #90A4AE;
+}
+.FormRow{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+.FormRow-label,
+.FormRow-input,
+.Form-button,
+.Form-labelLegend{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.FormRow-input{
+  font-size: 1em;
+}
